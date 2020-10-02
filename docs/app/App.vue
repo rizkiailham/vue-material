@@ -4,7 +4,7 @@
 
     <div class="container-wrapper md-layout-row" :class="containerClass">
       <main-nav />
-
+      <!-- this is the header -->
       <div class="main-container" v-if="loading">
         <code-loading>Loading page...</code-loading>
       </div>
